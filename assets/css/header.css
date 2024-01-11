@@ -58,7 +58,7 @@ nav a .logo-img {
     }
     .menu-lista.active {
         display: flex;
-        background-color:khaki;
+        background-color:darkcyan;
         position:absolute;
         flex-direction: column;
         top: 8vh;
