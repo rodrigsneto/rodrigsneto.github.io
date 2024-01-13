@@ -72,9 +72,27 @@ nav .logo-title {
         flex-direction: column;
         top: 10vh;
         right: 0vh;
-        width: 40vh;
+        width: 35vh;
         height: 92vh;
         align-items: center;
-        justify-content: space-around;
+    }
+    .menu-lista.active li {
+        display: flex;
+        height: 80px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        user-select: none;
+    }
+    .menu-lista.active li a{
+        user-select: none;
+    }
+    .menu-lista.active li:hover {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
     }
 }
