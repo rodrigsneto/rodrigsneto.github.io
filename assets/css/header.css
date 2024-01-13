@@ -3,7 +3,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color:cadetblue;
-    height: 8vh;
+    height: 10vh;
     position: fixed;
     width: 100%;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
@@ -28,12 +28,18 @@ nav a .logo-img {
 nav .logo-title {
     font-size: 25px;
     font-weight:600;
+    letter-spacing: 3px;
 }
 
 .menu-lista {
     display: flex;
     list-style: none;
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.menu-lista li a:hover {
+    color: antiquewhite;
+    transition: .5s;
 }
 
 .menu-lista li {
@@ -64,7 +70,7 @@ nav .logo-title {
         background-color:darkcyan;
         position:absolute;
         flex-direction: column;
-        top: 8vh;
+        top: 10vh;
         right: 0vh;
         width: 40vh;
         height: 92vh;
