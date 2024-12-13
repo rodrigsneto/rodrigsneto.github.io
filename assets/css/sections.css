@@ -1,6 +1,11 @@
+.section1 {
+    background-image: url("/assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 section {
     display: flex;
-    height: 94vh;
+    min-height: 94vh;
     padding-top: 8vh;
     justify-content: center;
     align-items: center;
@@ -40,6 +45,37 @@ section .container div{
     margin-bottom: 10px;
     width: 100%;
 }
+
+
+
+.section-body {
+    display: flex;
+    flex-direction: column;
+}
+.section5 .project-area {
+    display: flex;
+}
+.project-area .project-resume {
+    margin-left: 40px;
+}
+.project-area .project-image img {
+    width: 600px;
+}
+.project-area .project-button {
+    padding: 10px;
+    background-color: rgb(131, 251, 251);
+    display:inline;
+    border-radius: 10px;
+}
+.project-area .project-button:hover {
+    transition: 1s;
+    background-color: rgb(37, 132, 132);
+}
+.project-area .project-button a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .h1 {
     font-size: 80px;

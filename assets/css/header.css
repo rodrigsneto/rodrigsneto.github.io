@@ -3,7 +3,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color:cadetblue;
-    height: 10vh;
+    height: 13vh;
     position: fixed;
     width: 100%;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
@@ -26,19 +26,18 @@ nav a .logo-img {
     border: 2px solid firebrick;
 }
 nav .logo-title {
-    font-size: 25px;
+    font-size: 18px;
     font-weight:600;
-    letter-spacing: 3px;
 }
 
 .menu-lista {
     display: flex;
     list-style: none;
-    font-size: 25px;
-    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: 600;
 }
 .menu-lista li a:hover {
-    color: antiquewhite;
+    color: rgb(174, 248, 250);
     transition: .5s;
 }
 
